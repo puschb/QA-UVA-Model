@@ -1,1 +1,5 @@
 want to look at vector store index class (file) -->
+
+to use pipreq to generate the requirements file run "pipreqs . --ignore ".venv""
+- need to add bitsandbytes @ git+https://github.com/Keith-Hon/bitsandbytes-windows.git@fdb1ba729fa1936f2ef69e5ff1084d09189fdc2a
+manually

@@ -1,0 +1,4 @@
+-write rabel knowledge graph code
+-create knowledge graph index
+-create hybrid knowledge graph vector store retriever/index
+-create metadata compressor (lm summarize)

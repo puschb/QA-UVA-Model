@@ -3,3 +3,8 @@ want to look at vector store index class (file) -->
 to use pipreq to generate the requirements file run "pipreqs . --ignore ".venv""
 - need to add bitsandbytes @ git+https://github.com/Keith-Hon/bitsandbytes-windows.git@fdb1ba729fa1936f2ef69e5ff1084d09189fdc2a
 manually
+
+
+/u/bhx5gh/vitoulkas-qa-model/QA-UVA-Model/all_uva_news_articles_individual
+
+C:\Users\Benjamin\Documents\Random Projects\UVA-QA-Model\QA-UVA-Model\all_uva_news_articles_individual

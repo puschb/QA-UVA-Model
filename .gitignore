@@ -165,7 +165,7 @@ offload/
 launch.json
 uva_articles_sample/
 storage/
-faiss_vector_store/
 all_uva_news_articles.json
 node_storage/
 node_storage.zip
+backup/

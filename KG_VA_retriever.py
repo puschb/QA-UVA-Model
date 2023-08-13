@@ -30,7 +30,8 @@ class KG_VA_retreiver(BaseRetriever):
         retrieve_nodes = [combined_dict[rid] for rid in retrieve_ids]
         return retrieve_nodes
     
-if __name__ == 'main':
+if __name__ == '__main__':
+    print("in main")
     try:
         #build service context
         #build service context for querying

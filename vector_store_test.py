@@ -9,6 +9,8 @@ from llama_index.response_synthesizers import get_response_synthesizer
 from llama_index.query_engine.retriever_query_engine import RetrieverQueryEngine
 import torch
 
+print(f"is cuda available: {torch.cuda.is_available()}")
+
 system_prompt = """<|SYSTEM|># StableLM Tuned (Alpha version)
 - StableLM is a helpful and harmless open-source AI language model developed by StabilityAI.
 - StableLM is excited to be able to help the user, but will refuse to do anything that could be considered harmful to the user.
@@ -37,7 +39,7 @@ query_llm = HuggingFaceLLM(
 
 
 embed_model = LangchainEmbedding(
-  HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2", model_kwargs = {'device': 'cpu'})
+  HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2", model_kwargs = {'device': 'cuda'})
 )
 service_context = ServiceContext.from_defaults(llm=query_llm,embed_model=embed_model)
 
